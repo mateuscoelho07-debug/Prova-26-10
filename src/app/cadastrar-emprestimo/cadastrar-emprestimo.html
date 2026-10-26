@@ -1,0 +1,18 @@
+<h2>Novo empréstimo</h2>
+
+<div>
+  <label>Nome da pessoa</label><br />
+  <input type="text" [(ngModel)]="nomePessoa" />
+</div>
+
+<div>
+  <label>Título do livro</label><br />
+  <input type="text" [(ngModel)]="tituloLivro" />
+</div>
+
+<div>
+  <label>Data para devolução</label><br />
+  <input type="date" [(ngModel)]="dataPrevistaDevolucao" />
+</div>
+
+<button (click)="cadastrar()">Cadastrar</button>

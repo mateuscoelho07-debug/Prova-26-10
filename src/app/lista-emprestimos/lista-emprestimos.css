@@ -1,0 +1,17 @@
+.cartao {
+  border: 1px solid gray;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.em-aberto {
+  background-color: yellow;
+  display: inline-block;
+  padding: 3px 8px;
+}
+
+.devolvido {
+  background-color: lightgreen;
+  display: inline-block;
+  padding: 3px 8px;
+}
